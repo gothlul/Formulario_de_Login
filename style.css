@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #f0f0f0;
+    
+}
+
+
+
+
+
+
+/*====CABEÇALHO====*/
+
+
+
+
+header{
+    height: 15vh;
+    width: 100%;
+    float: left;
+    margin-bottom: 5vh;
+
+}
+
+
+
+
+
+
+/*====CONTEÚDO PRINCIPAL====*/
+
+
+
+
+main{
+    height: 100vh;
+    background: -webkit-linear-gradient(-5deg, #9999ff, #e0e0e0);
+    background: -moz-linear-gradient(-5deg, #9999ff, #e0e0e0);
+    background: -o-linear-gradient(-5deg, #9999ff, #e0e0e0);
+    background: linear-gradient(-5deg, #9999ff, #e0e0e0);
+    background-color: #9999ff;
+
+}
+
+.formulario{
+    width: clamp( 350px, 80vw, 800px);
+    margin: 0 auto;
+}
+
+#login{
+    clear: both;
+    background: #f0f0f0;
+    height: 60vh;
+    
+
+}
+
+
+
+
+
+
+/*====RODAPÉ====*/
+
+
+
+
+footer{
+    height: 40vh;
+    background: -webkit-linear-gradient(to bottom, #252525, #101010);
+    background: -moz-linear-gradient(to bottom, #252525, #101010);
+    background: -o-linear-gradient(to bottom, #252525, #101010);
+    background: linear-gradient(to bottom, #252525, #101010);
+
+}
+
