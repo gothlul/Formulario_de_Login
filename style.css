@@ -46,17 +46,68 @@ main{
 
 }
 
-.formulario{
-    width: clamp( 350px, 80vw, 800px);
+.area-formulario{
+    width: clamp( 200px, 80vw, 700px);
     margin: 0 auto;
 }
 
 #login{
     clear: both;
     background: #f0f0f0;
-    height: 60vh;
+    border-radius: 10px;
+    display: flex;
+    align-items: start;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+
+}
+
+.imagem-usuario{
+    width: 30vh;
+    height: 30vh;
+    border: .2px solid black;
+    margin: 30px 0;
+
+}
+
+.imagem-usuario img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    border-radius: 100%;
     
 
+}
+
+.formulario{
+    height: 30vh;
+    border: .2px solid black;
+    width: clamp(200px, 20vw, 600px);
+    padding: 0 30px 30px 30px;
+    margin: 30px 0;
+    
+}
+
+.formulario form div{
+    margin-bottom: 20px;
+}
+
+.campo input[type="text"],
+.campo input[type="password"]{
+    width: 100%;
+    height: 2em;
+    
+}
+
+form .campo:nth-child(3){
+    display: flex;
+    justify-content: end;
+}
+
+.action-button{
+    width: 100px;
+    height: 2em;
+    margin-top: 30px;
 }
 
 
